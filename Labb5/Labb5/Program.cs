@@ -1,15 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Labb5
+namespace ConsoleApp2
 {
-    class Program
+    class WhileTest
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            int n = 1;
+            while (n < 6)
+            {
+                Console.WriteLine("Current value of n is {0}", n);
+                n++;
+            }
         }
     }
 }
