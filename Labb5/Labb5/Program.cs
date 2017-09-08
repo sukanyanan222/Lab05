@@ -23,8 +23,9 @@ namespace Labb5
             Console.WriteLine("Line 6");
             Console.WriteLine("Line 7");
             Console.WriteLine("Line 8");
-            line9:
+        line9:
             Console.WriteLine("Line 9");
         }
     }
 }
+
